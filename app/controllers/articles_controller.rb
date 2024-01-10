@@ -26,8 +26,8 @@ class ArticlesController < ApplicationController
     response.headers["Accept"]="application/json"
     response.headers["Access-Control-Allow-Origin"]="*"
     response.headers["X-Content-Type-Options"]="nosniff"
-
-    render json: @article
+    @article = Article.includes(:comments).find(params[:id])
+    render json: @article.as_json(include: :comments)
   end
 
   # POST /articles

@@ -1,11 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  reviewer: MyText
-  review_bd: MyText
-  post: one
+  address: MyString
 
 two:
-  reviewer: MyText
-  review_bd: MyText
-  post: two
+  address: MyString
