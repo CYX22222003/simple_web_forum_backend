@@ -205,3 +205,4 @@ RUBY VERSION
 BUNDLED WITH
    2.5.3
 
+bundlelock --add-platform x86_64-linux
