@@ -1,24 +1,22 @@
-# README
+# How to set up the project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### System dependencies
+  -  Ruby version:  3.2.2 
+  -  Gem dependencies: 
+     -  rails 7.1.2
+     -  PostgreSQL 16.1 (deployment on Render)
+     -  SQLite 3 (local deployment)
+  - Node.js v21.5.0
+  - npm v10.2.5
+ 
+### test on local environment
+- Clone the repo to the local environment from the **master** branch
+- Use command ```rails server -p #[port_number]#``` to run the rails API.
+- The API will be running "**<a>http://localhost:port_number</a>**"
+- If neccessary, change the destination address of HTTP post in the frontend client repo
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### test the deployed product
+- The rails api is deployed on **Render** platform using its free web services
+- The Postgres database is also deployed on **Render**
+- The URL for the API endpoint is "**<a>https://demo-iu1g.onrender.com/:element</a>**"
+- available element includes: emails, articles, comments 
