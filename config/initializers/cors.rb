@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://cyx22222003.github.io/simple_web_forum/"
+    origins "*"
 
     resource "*",
       headers: :any,
