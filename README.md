@@ -9,6 +9,7 @@
   - npm v10.2.5
  
 ### test on local environment
+- Install system dependencies on local environment
 - Clone the repo to the local environment from the **master** branch
 - Use command ```rails server -p #[port_number]#``` to run the rails API.
 - The API will be running "**<a>http://localhost:port_number</a>**"
