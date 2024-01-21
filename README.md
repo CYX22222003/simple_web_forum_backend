@@ -1,5 +1,10 @@
 # How to set up the project
 
+### Branches
+- the **master** branch is for test on local environment
+- the **deployment** branch is for the deployment on **Render**
+- the **new feature** branch is for the creation of new features
+
 ### System dependencies
   -  Ruby v3.2.2 
   -  rails v7.1.2
@@ -8,14 +13,14 @@
   - Node.js v21.5.0
   - npm v10.2.5
  
-### test on local environment
+### Test on local environment
 - Install system dependencies on local environment
 - Clone the repo to the local environment from the **master** branch
 - Use command ```rails server -p #[port_number]#``` to run the rails API.
 - The API will be running "**<a>http://localhost:port_number</a>**"
 - If neccessary, change the destination address of HTTP post in the frontend client repo
 
-### test the deployed product
+### Test the deployed product
 - The rails API is deployed on **Render** platform using its free web services
 - The URL for the rails API endpoint is "**<a>https://demo-iu1g.onrender.com/:element</a>**"
 - available element includes: emails, articles, comments 
