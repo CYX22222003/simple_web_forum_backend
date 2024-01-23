@@ -37,4 +37,4 @@
 - Free web service may be spinned down on idle. Refreshing the log-in page when an authentication for a registered email fails
 - There is a monthly usage limit of 750 hours for rails API
 - There is a 90-day limit for the PostgreSQL on the platform. Database will expire after 90 days.
-- I have setup a cron job at [cron-job.org](https://console.cron-job.org/dashboard)cron-job.org to ping the server every 15 minutes to prevent it from spinning down. 
+- I have setup a cron job at [cron-job.org](https://console.cron-job.org/dashboard) to ping the server every 15 minutes to prevent it from spinning down. 
